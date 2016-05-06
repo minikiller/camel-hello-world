@@ -32,16 +32,16 @@
     <version.compiler.plugin>2.3.1</version.compiler.plugin>
     <version.maven.bundle.plugin>2.3.7</version.maven.bundle.plugin>
     <version.maven.resources.plugin>2.7</version.maven.resources.plugin>
-    <maven.compiler.target>1.7</maven.compiler.target>
-    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.8</maven.compiler.target>
+    <maven.compiler.source>1.8</maven.compiler.source>
 
     <!-- versions for use in mvn plugins as we cannot inherit them from a BOM -->
     <fabric8.version>2.2.14</fabric8.version>
     <jube.version>2.2.0</jube.version>
     <docker.maven.plugin.version>0.13.2</docker.maven.plugin.version>
-    <camel.version>2.15.2</camel.version>
-    <karaf.version>4.0.0</karaf.version>
-    <karaf.plugin.version>4.0.1-SNAPSHOT</karaf.plugin.version>
+    <camel.version>2.17.0</camel.version>
+    <karaf.version>4.0.5</karaf.version>
+    <karaf.plugin.version>4.0.5</karaf.plugin.version>
 
     <!-- karaf4 custom assembly for karaf4-sti -->
     <docker.env.KARAF4_ASSEMBLY>${project.artifactId}-${project.version}.tar.gz</docker.env.KARAF4_ASSEMBLY>

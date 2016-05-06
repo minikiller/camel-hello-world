@@ -8,7 +8,7 @@ ENV KARAF_HOME=/opt/jboss/karaf
 ENV KARAF_OPTS=-javaagent:/opt/jboss/karaf/jolokia-agent.jar=host=0.0.0.0,port=8778,authMode=jaas,realm=karaf,user=admin,password=admin
 
 # karaf ports
-EXPOSE 8181 8778
+EXPOSE 8181 8101 8778
 
 # copy all content from maven directory used by docker plugin to /opt/jboss
 COPY maven /opt/jboss/

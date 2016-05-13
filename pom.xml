@@ -137,7 +137,7 @@
             <includeBuildOutputDirectory>false</includeBuildOutputDirectory>
             <!-- no startupFeatures -->
             <bootFeatures>
-<!--
+
               <feature>wrap</feature>
               <feature>shell</feature>
               <feature>shell-compat</feature>
@@ -152,7 +152,6 @@
               <feature>kar</feature>
               <feature>package</feature>
               <feature>service</feature>
--->
               <feature>jaas</feature>
               <feature>management</feature>
               <feature>log</feature>

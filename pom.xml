@@ -360,9 +360,25 @@
       </properties>
     </profile>
   </profiles>
-
+  <repositories>
+    <repository>
+      <id>remote-nexus</id>
+      <url>http://nexus3.kalix.com/repository/maven-public/</url>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+  </repositories>
   <!-- fusesource repo for karaf snapshot plugin -->
   <pluginRepositories>
+    <pluginRepository>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+      <id>remote-nexus</id>
+      <name>Maven Plugin Repository</name>
+      <url>http://nexus3.kalix.com/repository/maven-public/</url>
+    </pluginRepository>
     <pluginRepository>
       <id>central</id>
       <url>http://repo1.maven.org/maven2</url>

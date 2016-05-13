@@ -158,6 +158,7 @@
               <feature>log</feature>
               <feature>system</feature>
               <feature>aries-blueprint</feature>
+              <feature>webconsole</feature>
 <!-- commented because it pulls in bundles like camel-commands, which should be optional
               <feature>camel-core</feature>
               <feature>camel-blueprint</feature>

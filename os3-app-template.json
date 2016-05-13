@@ -43,7 +43,6 @@
                 }
             },
             "spec": {
-//                "dockerImageRepository": "dhirajsb/s2i-karaf"
                 "dockerImageRepository": "172.30.124.220:5000/karaf/s2i-karaf"
             },
             "status": {

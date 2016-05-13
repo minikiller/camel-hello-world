@@ -19,7 +19,7 @@
     "description": "Application Name"
   }, {
     "name": "GIT_REPO",
-    "value": "https://github.com/dhirajsb/camel-hello-world.git",
+    "value": "https://github.com/minikiller/camel-hello-world.git",
     "description": "git repository"
   }, {
     "name": "MAVEN_ARGS",
@@ -36,14 +36,15 @@
             "kind": "ImageStream",
             "apiVersion": "v1",
             "metadata": {
-                "name": "fuse-sti-${APP_NAME}",
+                "name": "s2i-karaf-${APP_NAME}",
                 "creationTimestamp": null,
                 "labels": {
                     "app": "${APP_NAME}"
                 }
             },
             "spec": {
-                "dockerImageRepository": "dhirajsb/fuse-sti"
+//                "dockerImageRepository": "dhirajsb/s2i-karaf"
+                "dockerImageRepository": "172.30.124.220:5000/karaf/s2i-karaf"
             },
             "status": {
                 "dockerImageRepository": ""
@@ -104,7 +105,7 @@
                     "sourceStrategy": {
                         "from": {
                             "kind": "ImageStreamTag",
-                            "name": "fuse-sti-${APP_NAME}:latest"
+                            "name": "s2i-karaf-${APP_NAME}:latest"
                         },
                         "incremental": true,
                         "forcePull": true,

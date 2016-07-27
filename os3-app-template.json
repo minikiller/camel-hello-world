@@ -43,7 +43,7 @@
                 }
             },
             "spec": {
-                "dockerImageRepository": "172.30.124.220:5000/karaf/s2i-karaf"
+                "dockerImageRepository": "172.30.93.175:5000/openshift/s2i-karaf"
             },
             "status": {
                 "dockerImageRepository": ""

@@ -383,7 +383,7 @@
   <repositories>
     <repository>
       <id>remote-nexus</id>
-      <url>http://nexus.apps.kalix.com/content/groups/public/</url>
+      <url>http://nexus.apps.bogon.com/content/groups/public/</url>
       <snapshots>
         <enabled>false</enabled>
       </snapshots>
@@ -397,7 +397,7 @@
       </snapshots>
       <id>remote-nexus</id>
       <name>Maven Plugin Repository</name>
-      <url>http://nexus.apps.kalix.com/content/groups/public/</url>
+      <url>http://nexus.apps.bogon.com/content/groups/public/</url>
     </pluginRepository>
     <pluginRepository>
       <id>central</id>
@@ -425,12 +425,12 @@
     <repository>
       <id>private-nexus-library-releases</id>
       <name>private-nexus-library-releases</name>
-      <url>http://nexus.apps.kalix.com/content/repositories/releases</url>
+      <url>http://nexus.apps.bogon.com/content/repositories/releases</url>
     </repository>
     <snapshotRepository>
       <id>private-nexus-library-snapshots</id>
       <name>private-nexus-library-snapshots</name>
-      <url>http://nexus.apps.kalix.com/content/repositories/snapshots/</url>
+      <url>http://nexus.apps.bogon.com/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
       <id>website</id>

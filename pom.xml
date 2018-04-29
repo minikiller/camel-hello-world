@@ -40,8 +40,8 @@
     <jube.version>2.2.0</jube.version>
     <docker.maven.plugin.version>0.13.2</docker.maven.plugin.version>
     <camel.version>2.17.0</camel.version>
-    <karaf.version>4.1.5</karaf.version>
-    <karaf.plugin.version>4.1.5</karaf.plugin.version>
+    <karaf.version>4.1.2</karaf.version>
+    <karaf.plugin.version>4.1.2</karaf.plugin.version>
 
     <!-- karaf4 custom assembly for karaf4-sti -->
     <docker.env.KARAF4_ASSEMBLY>${project.artifactId}-${project.version}.tar.gz</docker.env.KARAF4_ASSEMBLY>

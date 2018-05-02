@@ -114,6 +114,14 @@
       <type>xml</type>
       <scope>runtime</scope>
     </dependency>
+    <dependency>
+      <groupId>io.fabric8</groupId>
+      <artifactId>fabric8-karaf-features</artifactId>
+      <version>${fabric8.version}</version>
+      <classifier>features</classifier>
+      <type>xml</type>
+      <scope>runtime</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -158,6 +166,8 @@
               <feature>system</feature>
               <feature>aries-blueprint</feature>
               <feature>webconsole</feature>
+              <feature>fabric8-karaf-blueprint</feature>
+              <feature>fabric8-karaf-checks</feature>
 <!-- commented because it pulls in bundles like camel-commands, which should be optional
               <feature>camel-core</feature>
               <feature>camel-blueprint</feature>
